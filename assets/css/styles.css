@@ -58,6 +58,7 @@ body {
 }
 .end {
   margin: auto;
+
   width: 50%;
   text-align: center;
   padding: 10px;
@@ -268,11 +269,22 @@ p {
   margin: auto;
   font-size: 30px;
 }
+.MeContacter {
+  margin-top: 40px;
+}
 
 .info {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+.Vsmc {
+  margin-bottom: 20px;
+}
+
+.ContactFont {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 input {
