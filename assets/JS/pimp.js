@@ -1,7 +1,7 @@
 [].forEach.call(document.querySelectorAll("a"), el => {
   el.addEventListener("click", () => {
     // votre code ici...…
-    console.log("AAAAAAh");
+    console.log("yes");
     document.getElementById("menusmart").style.display = "block";
     document.getElementById("cross").style.display = "block";
     document.getElementById("supp").style.display = "none";

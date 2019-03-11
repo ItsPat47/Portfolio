@@ -51,15 +51,21 @@ body {
   background-color: #dddddd;
   width: 100px;
   height: 100px;
-  color: #5e5690;
+  color: #467d9c;
   border-radius: 50%;
   align-items: center;
   margin: 20px;
 }
-
+.end {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+}
 .prez {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .bio {
@@ -93,7 +99,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 35px;
-  margin: 0px;
+  margin-bottom: 20px;
   background-color: #f7f7f7;
 }
 .header > ul > li {
@@ -107,16 +113,13 @@ body {
   text-decoration: none;
   color: black;
 }
-
-.prez {
-  display: flex;
-
-  font-size: 18px;
-  padding-right: 40px;
+#photo {
+  margin-right: 20px;
 }
+
 .prez img {
   height: 250px;
-  border-radius: 200px;
+  border-radius: 10%;
 }
 .prez h2 {
   font-size: 37px;
@@ -148,6 +151,10 @@ h2::after {
   width: 90px;
   background-color: #5e5690;
   height: 2px;
+}
+
+.projetimage {
+  box-shadow: 5px 5px 15px grey;
 }
 
 h3 {
@@ -205,7 +212,7 @@ article p {
 }
 
 .skill .compet {
-  margin: 100px;
+  margin-bottom: 70px;
 }
 
 .skill ul {
@@ -255,8 +262,11 @@ p {
 }
 
 .contact h3 {
-  padding: 20px;
-  margin: 10px;
+  margin-bottom: 30px;
+}
+.contactpara {
+  margin: auto;
+  font-size: 30px;
 }
 
 .info {

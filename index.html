@@ -20,7 +20,7 @@
     <script type="text/javascript" src="assets/JS/pimp.js" defer></script>
   </head>
   <body>
-    <div id="supp"><a> <i class="fas fa-bars fa-2x"></a></i></div>
+    <div id="supp"><a> <i class="fas fa-bars fa-2x"></i></a></div>
     <div id="cross"><a><i class="fas fa-times fa-2x"></i></a></div>
     <!-- <div class="arrowufo"><i class="fas fa-arrow-up fa-5x"></i></div> -->
 <!-- <div id="menusmart">
@@ -36,7 +36,7 @@
 
     <div class="titre">
       <div class="ikone">
-        <i class="fas fa-code fa-2x "></i>
+        <i class="fab fa-react fa-5x "></i>
       </div>
         
       <h1>Mon portfolio</h1>
@@ -45,68 +45,67 @@
     <div class="container">
       <div class="header">
         <ul>
-          <li><a href="#Qsj">Qui suis-je</a></li>
+          <li><a href="#Qsj">Mon profil</a></li>
           <li><a href="#Pro">Projets</a></li>
           <li><a href="#Com">Compétences</a></li>
-          <li><a href="#Con">Me contact</a></li>
+          <li><a href="#Con">Contact</a></li>
         </ul>
       </div>
 
       <div class="prez">
         <div class ="bio">
-        <h2 id="Qsj">Qui suis-je</h2>
+        <h2 id="Qsj">Patrick CHEN</h2>
+        
         <p>
-          Je m'appelle Patrick. Je suis actuellement en formation au bootcamp "Le Reacteur"
-          qui se situe dans le 11ème arrondissment de Paris. 
-          
-        </p>
+          Actuellement en fin de formation au Bootcamp Le Reacteur à la recherche
+          d'un stage qui me permettra d'appliquer tout ce que j'ai appris
+         </p>
       </div >
-        <img src="assets/img/temp.jpg" alt="photome">
+        <img id="photo" src="assets/img/me.jpg" alt="photome" >
       </div>
       <section class="site">
         <h2 id="Pro">Mes derniers travaux</h2>
         <h3>voici quelques projets réalisés ces derniers temps durant ma formation.</h3>
         <div class= "casesite">
           <article>
-            <img src="assets/img/espresso.jpeg" alt="cowfee" />
-            <div class="title">Cowfee</div>
+            <img src="assets/img/imdbStatic.png" alt="Imdb" class="projetimage"  />
+            <div class="title">Page IMDB</div>
             <p>
-              Ceci est un site réalisé pour la société lambda. il a été crée
-              grâce au langage HTML et CSS
+              Exercice réalisé avec React-Native. Dans cette exercice nous devions recréer une page IMDB
             </p>
-            <a class="btn" href="https://google.fr" target="_blank"
-              >Voir le site</a
+            <a class="btn" href="https://github.com/ItsPat47/Imdb_Page_ReactNative" target="_blank" 
+              >Voir le Git</a
             >
           </article>
           <article>
-            <img src="assets/img/temp.jpeg" alt="cowfee" />
-            <div class="title">temp2</div>
+            <img src="assets/img/airbnbPortfolio.png" alt="Airbnb_React" class="projetimage" />
+            <div class="title">Catalogue AirBnb</div>
             <p>
-              Ceci est un site réalisé pour la société lambda. il a été crée
-              grâce au langage HTML et CSS
+              Cette exercice avait pour but de créer une page authentification et une page 
+              catalogue depuis une base de données. 
             </p>
-            <a class="btn" href="https://google.fr" target="_blank"
-              >Voir le site</a
+            <a class="btn" href="https://github.com/ItsPat47/AirBnb_LoginScreen_ReactNative" target="_blank"
+              >Voir le Git</a
             >
           </article>
           <article>
-            <img src="assets/img/temp.jpeg" alt="cowfee" />
-            <div class="title">temp</div>
+            <img src="assets/img/allocineStatic.png" alt="allocine" class="projetimage" />
+            <div class="title">Onglets Allociné</div>
             <p>
-              Ceci est un site réalisé pour la société lambda. il a été crée
-              grâce au langage HTML et CSS
+              Site réalisé avec React avec trois onglets qui switchent quand on clique sur leur categories 
+              sans changer de page.
             </p>
-            <a class="btn" href="https://google.fr" target="_blank"
-              >Voir le site</a
+            <a class="btn" href="https://github.com/ItsPat47/AllocineTabs_React" target="_blank"
+              >Voir le Git</a
             >
           </article>
           <article>
-            <img src="assets/img/reddit.jpeg" alt="cowfee" />
-            <div class="title">Autres travaux sur GitHub</div>
+            <img src="assets/img/morpion.png" alt="morpion" class="projetimage" />
+            <div class="title">Morpion</div>
             <p>
-              N'hesitez pas à regarder mes travaux posté sur mon profil GitHub !
+              Mini-jeux réalisé avec React.
             </p>
-            <a class="btn" href="https://google.fr" target="_blank"
+            <a class="btn" href="https://github.com/ItsPat47/ticatactoe" target="_blank"
               >Voir le site</a
             >
           </article>
@@ -152,9 +151,14 @@
       <h2 id="Con">Me contacter</h2>
 
 
-      <h3>Vous souhaitez me contacter ? C'est parti !</h3>
+      <h3>Vous souhaitez me contact ?</h3>
+      <div class="end">
+        <p>Email: <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">chen.patrick47@gmail.com</a></p>
+        <p>Tel: 06 68 85 86 78</p>
+        <p>Ou envoyez moi un message sur mon <a href="https://www.linkedin.com/in/patrick-chen-9b6043128/">Linkdin </a></p>
+      </div>
     </div>
-      <section class= "info">
+      <!-- <section class= "info">
         <form id="formulaire">
           <input
             type="text"
@@ -180,10 +184,10 @@
           ></textarea
           ><br />
           <button type="submit">Envoyer le message</button>
-        </form>
+        </form> -->
       
      
-    </section>
+     </section>
     </div>
   </div>
 </div>
